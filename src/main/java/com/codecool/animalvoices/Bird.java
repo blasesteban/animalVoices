@@ -1,7 +1,7 @@
 package com.codecool.animalvoices;
 
-public class Cow extends Animal {
-    private String voice = "muuu";
+public class Bird extends Animal {
+    private String voice = "chirp";
 
     @Override
     public String getVoice() {
@@ -10,6 +10,6 @@ public class Cow extends Animal {
 
     @Override
     public void setVoice(String voice) {
-        this.voice = voice;
+
     }
 }
